@@ -1,2 +1,16 @@
-.idea
-cmake-build-debug/
+# IDE files
+.idea/
+.vscode/
+
+# CMake build directories
+cmake-build-*/
+build/
+out/
+
+# macOS
+.DS_Store
+
+# Build artifacts
+*.o
+*.exe
+*.out
