@@ -36,8 +36,8 @@ namespace bonsai {
                 }
             public:
                 void set(const std::string& key, const std::string& value) {
-                    std::string clean_key = toLower(key);
-                    data[key] = value;
+                    const std::string clean_key = toLower(key);
+                    data[clean_key] = value;
                 };
                 std::string get(const std::string& key) {
                     return data[key];
